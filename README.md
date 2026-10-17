@@ -1,7 +1,7 @@
 # Data Visualization: Faktor yang Berkaitan dengan Kelulusan Mahasiswa
 
-Tugas Studi Kasus Mata Kuliah **Data Mining** (Pertemuan 6)
-**Nama:** Dio Raditya Putra Pratama | **NIM:** 2318044 | **Kampus:** Institut Teknologi Nasional Malang
+Tugas Studi Kasus Mata Kuliah **Data Mining**
+Dio Raditya Putra Pratama | 2318044
 
 ## Deskripsi Project
 Project ini mengeksplorasi dataset kelulusan mahasiswa secara visual menggunakan **Python (Matplotlib dan Seaborn)** di Google Colab. Tujuannya mencari pola, distribusi, hubungan antarvariabel, dan tren yang berkaitan dengan status kelulusan (Tepat Waktu / Terlambat).
@@ -16,7 +16,7 @@ Project ini mengeksplorasi dataset kelulusan mahasiswa secara visual menggunakan
 | Aktivitas luar kuliah | aktif_organisasi, kerja_paruh_waktu |
 | Target | status_kelulusan (359 Tepat Waktu, 141 Terlambat) |
 
-Sumber dataset: [isi sumber dataset di sini]
+Sumber dataset: [https://drive.google.com/file/d/1H_MI6jQPUgD1XaXbOoxpvbNnrEk0XcXr/view?usp=sharing]
 
 ## Persiapan Data
 Missing value (37 sel) diisi median per jurusan, outlier dibatasi dengan IQR (capping), dan ditambahkan kolom `tepat_waktu` (1/0) untuk perhitungan persentase dan korelasi.
@@ -48,20 +48,4 @@ Missing value (37 sel) diisi median per jurusan, outlier dibatasi dengan IQR (ca
 4. Aktivitas di luar kuliah berkaitan dengan persentase tepat waktu yang sedikit lebih rendah, selisihnya kecil.
 5. Hasil ini menunjukkan keterkaitan, bukan sebab-akibat.
 
-## Struktur Repository
-```
-├── 2318044DataVisualization.ipynb   # notebook utama (kode, visualisasi, interpretasi, kesimpulan)
-├── dataset_kelulusan_mahasiswa.csv  # dataset
-├── hasil_visualisasi/               # gambar hasil visualisasi (PNG)
-└── README.md
-```
-
-## Cara Menjalankan
-1. Buka `2318044DataVisualization.ipynb` di Google Colab.
-2. Upload `dataset_kelulusan_mahasiswa.csv` ke Colab (ikon folder di sidebar kiri).
-3. Jalankan semua sel (**Runtime → Run all**).
-
-**Link Google Colab:** [isi link Colab di sini]
-
-## Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn, Google Colab
+**Link Google Colab:** [https://colab.research.google.com/drive/1J8zYWhJxoDUmQqI--ls_fsfptcxXv8_l?usp=sharing]
